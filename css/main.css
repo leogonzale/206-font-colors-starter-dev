@@ -20,19 +20,19 @@ h2 {
 }
 
 /*---------- phones ----------*/
-@media screen and (min-width: 480px) {
+@media  (min-width: 414px) {
   h1 {
-    color: 		#7b7d70;
+    color:#7b7d70;
   }
 
   h2 {
-    color: 		#4eafb8;
+    color:#4eafb8;
   }
   p{
-    color:	#ff8641;}
+    color:#0ecd57;}
   }
 /*---------- Tablets ----------*/
-@media screen and (min-width: 768px ) {
+@media (min-width: 768px ) {
   h1 {
     color: 	#02cbd2;
   }
@@ -42,7 +42,7 @@ h2 {
   }
 
   p{
-    color:	#7b8f8e;
+    color:	#9e0d28;
   }}
 
 

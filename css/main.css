@@ -19,32 +19,42 @@ h2 {
   font-size: 1.5em;
 }
 
-/*---------- phones ----------*/
-@media  (min-width: 414px) {
-  h1 {
-    color:#7b7d70;
-  }
 
-  h2 {
-    color:#4eafb8;
-  }
-  p{
-    color:#0ecd57;}
-  }
+
+
+
+
+
 /*---------- Tablets ----------*/
-@media (min-width: 768px ) {
-  h1 {
-    color: 	#02cbd2;
-  }
 
-  h2 {
-    color: 	#fcc02a;
-  }
 
-  p{
-    color:	#9e0d28;
-  }}
+/*---------- phones ----------*/
+  @media screen and (min-width: 300px) {
+    h1 {
+      color:#7b7d70;
+    }
+  
+    h2 {
+      color:#4eafb8;
+    }
+    p{
+      color:#0ecd57;
+    }
+    }
 
+
+    @media (min-width: 768px ) {
+      h1 {
+        color: 	#02cbd2;
+      }
+    
+      h2 {
+        color: 	#fcc02a;
+      }
+    
+      p{
+        color:	#9e0d28;
+      }}
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
@@ -53,11 +63,10 @@ h2 {
   }
 
   h2 {
-    color: 	#cabd61;
+    color: 	#5a0fa9;
   }
 
 p{
-  color:#c19e74;
+  color:#b72dcf;
 }
 }
-
